@@ -1,0 +1,23 @@
+:root{
+    --primary: #457B9D;
+    --secundary: #E63946;
+    --light: #F1FAEE;
+    --dark: #1D3557;
+    --disabled: #A8DADC;
+    --grey: #3f3f3f;
+}
+
+html{
+    background-color: var(--grey);
+
+}
+
+.calc-container{
+    background-color: transparent;
+}
+
+.calculator{
+    border-radius: 1rem;
+    box-shadow: 1.5rem 1rem 0rem 0.5rem #00000033;
+    background-color: var(--light);
+}

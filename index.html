@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 415px)">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 780px)">
+    <title>Calculator with HTML-CSS-JavaScript</title>
+</head>
+<body>
+    <section class="calc-container">
+        <article class="calculator">
+            <div class="header">
+                <h1>Calculator App</h1>
+                <a href="https://github.com/FrankAlz" target="_blank">by FrankAlz</a>
+            </div>
+            <div class="display">
+                <div class="prev-value" id="prevValue"></div>
+                <div class="actual-value" id="actualValue"></div>
+            </div>
+            <button class="btn-double btn-reset" onclick="display.resetDisplay()">C</button>
+            <button class="btn-backspace" onclick="display.sliceDisplay()">&larr;</button>
+            <button class="btn-operator" value="divide">%</button>
+            <button class="btn-number">7</button>
+            <button class="btn-number">8</button>
+            <button class="btn-number">9</button>
+            <button class="btn-operator" value="multiply">x</button>
+            <button class="btn-number">4</button>
+            <button class="btn-number">5</button>
+            <button class="btn-number">6</button>
+            <button class="btn-operator" value="subtract">-</button>
+            <button class="btn-number">1</button>
+            <button class="btn-number">2</button>
+            <button class="btn-number">3</button>
+            <button class="btn-operator" value="add">+</button>
+            <button class="btn-double btn-number">0</button>
+            <button class="btn-number">.</button>
+            <button class="btn-operator" value="equal">=</button>
+        </article>
+
+        <article class="social">
+            <a href="https://github.com/FrankAlz" target="_blank">github.com/Frank-Alvarz</a>
+            <a href="https://linkedin.com/in/frankz-alvarz/" target="_blank">linkedin.com/in/frankz-alvarz/</a>
+            <a href="https://stackoverflow.com/users/11690034/frank-alvarz" target="_blank">stackoverflow.com/frank-alvarz</a>
+        </article>
+        
+    </section>
+
+    <script src="js/Display.js" type="text/javascript"></script>
+    <script src="js/Calculator.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
